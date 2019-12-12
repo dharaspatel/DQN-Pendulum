@@ -20,11 +20,18 @@ A feedback loop allows it to learn a "pathway" that maximizes its reward. For ev
 
 ![Equation for DQN](https://miro.medium.com/max/1434/1*CLBIXdpk8ft0-1MFH8FwUg.png)
 
-The Q-value, which is a cummulation of discounted future rewards, is what allows learning to happen. 
+The Q-value, which is a cummulation of discounted future rewards, is what allows learning to happen. The Q-value allows the model to draw a optimized path to the goal by sampling experiences from the past. It depends on several parameters: gamma rate, learning rate, exploration decay rate. The gamma rate controls the impact of future reward on the current reward. The greater the gamma, the more future rewards matter. The learning rate is the ..... And, the exploration decay rate controls the rate at which the model decreases the number of times it takes random actions. 
 
-```code
-```
+We implemented our network in a class called *DQNNetwork* that keeps a memory of past experiences, calculates the Q-value, and takes an action given parameters. The *cartpole* function controls the environment and uses the *ScoreLogger* class to track the number of trials it took to keep the pendulum upright for 500 timesteps. The system diagram below depicts how our code is strucutred. 
+
 ### Optimization 
+Our first iteration of our network used default parameter values. The graph below is the number of runs it took to *solve*, or reach an average reward of 195 over 100 consecutive trials for the default settings. 
+
+We began optimizing by varying the gamma rate and measuring the number of trials it takes to solve. The graph below demonstrates that the optimial gamma rate is ... 
+
+Then, we implemented this optimized gamma rate and varied the learning rate in the same way. From the graph below we can say that ... is the optimial learning rate. 
+
+We repeated the process for the exploration decay rate and found that the optimal exploration decay rate is ...
 
 ## Results 
 
