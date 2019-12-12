@@ -35,4 +35,10 @@ We repeated the process for the exploration decay rate and found that the optima
 
 ## Results and Analysis
 
+We ran the model with all optimized parameters and were able to reach the solved state in __ trials. The graph below shows the number of steps for each trial before solve. 
+
+Analysis here 
+
 ## Next Steps
+
+Now that we have optimized our parameters, we plan to play around with the network strucutre. Increasing the number of layers or parameterizing other parameters will increase the efficieny of our network. 
