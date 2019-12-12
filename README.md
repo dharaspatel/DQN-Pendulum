@@ -33,8 +33,6 @@ Then, we implemented this optimized gamma rate and varied the learning rate in t
 
 We repeated the process for the exploration decay rate and found that the optimal exploration decay rate is ...
 
-## Results 
-
-## Analysis 
+## Results and Analysis
 
 ## Next Steps
