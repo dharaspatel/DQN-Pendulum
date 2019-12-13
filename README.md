@@ -37,7 +37,7 @@ We repeated the process for the exploration decay rate and found that the optima
 ## Results and Analysis
 ![](randomPendulum.gif)
 |:--:| 
-| *Random Pendulum* |
+| *Untrained Pendulum* |
 
 ![](OurCartPoleGIF.gif)
 |:--:| 
