@@ -4,7 +4,7 @@
   Franklin W. Olin College of Engineering, Machine Learning 
   
 ## Background 
-In the world of robotics, precision is key. To achieve this order of precision, there are infinite parameters we need to optimize. Using reinforcement learning we can optimize a robot’s performance within minutes. Reinforcement learning uses experiences to learn first-hand what the best way of achieving a particular goal is. It assigns rewards to actions that lead to more optimal states. This model can be applied to any environment. Any robotic motion can use reinforcement learning to optimize. 
+In the world of robotics, precision is key. To achieve this order of precision, there are infinite parameters we need to optimize. Using reinforcement learning we can optimize a robot’s performance within minutes. Reinforcement learning uses experiences to learn first-hand what the best way of achieving a particular goal is. It assigns rewards to actions that lead to more optimal states. This model can be applied to many environments. Any robotic motion can use reinforcement learning to optimize. 
 
 
 #### Our Environment: Inverted Pendulum
