@@ -34,7 +34,7 @@ Then, we implemented this optimized gamma rate and varied the learning rate in t
 We repeated the process for the exploration decay rate and found that the optimal exploration decay rate is ...
 
 ## Results and Analysis
-![](randompendulum.gif)
+![](randomPendulum.gif)
 
 We ran the model with all optimized parameters and were able to reach the solved state in __ trials. The graph below shows the number of steps for each trial before solve. 
 
