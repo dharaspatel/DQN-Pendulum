@@ -35,7 +35,10 @@ We repeated the process for the exploration decay rate and found that the optima
 
 ## Results and Analysis
 ![](randomPendulum.gif)
-*Random Pendulum*
+|:--:| 
+| *Random Pendulum* |
+
+
 We ran the model with all optimized parameters and were able to reach the solved state in __ trials. The graph below shows the number of steps for each trial before solve. 
 
 Analysis here 
