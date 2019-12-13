@@ -23,7 +23,7 @@ A feedback loop allows it to learn a "pathway" that maximizes its reward. For ev
 The Q-value, which is a cummulation of discounted future rewards, is what allows learning to happen. The Q-value allows the model to draw a optimized path to the goal by sampling experiences from the past. It depends on several parameters: gamma rate, learning rate, exploration decay rate. The gamma rate is a value from 0-1 that controls the impact of future reward on the current action. A gamma value closer to one more heavily weighs rewards in the future rather than just the current state.  The learning rate controls the rate at which newly aquired data overrides the previously known information. The exploration decay value controls the degree at which the model exploration rate decreases. The exploration rate is the likelihood of of the model to take a random action rather than the known best action. This stops the model from getting stuck at local maxima, paths that may produce a positive reward, but not the intended outcome.
 
 We implemented our network in a class called *DQNNetwork* that keeps a memory of past experiences, calculates the Q-value, and takes an action given parameters. The *cartpole* function controls the environment and uses the *ScoreLogger* class to track the number of trials it took to keep the pendulum upright for 500 timesteps. The system diagram below depicts how our code is structured. 
-
+![](BlockDiagram.png)
 ### Optimization 
 Our first iteration of our network used default parameter values. The graph below is the number of runs it took to *solve*, or reach an average reward of 195 over 100 consecutive trials for the default settings. 
 
