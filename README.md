@@ -50,4 +50,4 @@ Analysis here
 
 ## Next Steps
 
-Now that we have optimized our parameters, we plan to play around with the network strucutre. Increasing the number of layers or parameterizing other parameters will increase the efficieny of our network. 
+Now that we have optimized our gamma parameter, we hope to be able to optimize the learning rate, and exploration decay values. Additionally we plan to test out alternative network structures, increasing the number of layers or optimizing other parameters could potentially improve the efficiency of our network. 
