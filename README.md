@@ -39,6 +39,10 @@ We repeated the process for the exploration decay rate and found that the optima
 |:--:| 
 | *Random Pendulum* |
 
+![](OurCartpoleGIF.gif)
+|:--:| 
+| *Applied DQN Pendulum* |
+
 One of the main issues with reinforcement learning is the time it takes to train and have a functioning model. Because of this, it is very important to ensure the values the user has control over are optimized to minimize training speed and maximize 
 We ran the model with all optimized parameters and were able to reach the solved state in __ trials. The graph below shows the number of steps for each trial before solve. 
 
