@@ -39,7 +39,7 @@ We repeated the process for the exploration decay rate and found that the optima
 |:--:| 
 | *Random Pendulum* |
 
-![](OurCartpoleGIF.gif)
+![](OurCartPoleGIF.gif)
 |:--:| 
 | *Applied DQN Pendulum* |
 
