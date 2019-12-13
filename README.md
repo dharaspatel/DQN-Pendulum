@@ -26,13 +26,14 @@ We implemented our network in a class called *DQNNetwork* that keeps a memory of
 ![](BlockDiagram.png)
 ### Optimization 
 Our first iteration of our network used default parameter values. The graph below is the number of runs it took to *solve*, or reach an average reward of 195 over 100 consecutive trials for the default settings. 
-
 ![](DefaultScore.png)
+
+
 We began optimizing by varying the gamma rate and measuring the number of trials it takes to solve. The graph below demonstrates that the optimial gamma rate is ... 
 
-Then, we implemented this optimized gamma rate and varied the learning rate in the same way. From the graph below we can say that ... is the optimial learning rate. 
+[insert gamma optimization here] 
 
-We repeated the process for the exploration decay rate and found that the optimal exploration decay rate is ...
+The optimization class makes it easy to optimize multiple network parameters. We talk more about optimization in the Next Steps section.
 
 ## Results and Analysis
 ![](randomPendulum.gif)
